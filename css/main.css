@@ -1,0 +1,45 @@
+body {
+    clear: page;
+}
+#main {
+    width: 90%;
+    margin: auto;
+}
+
+#search-bar {
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+#search-bar>input[type=text] {
+    width: calc(100% - 160px);
+}
+
+#search-bar>input[type=button] {
+    width: 150px;
+    float: right;
+}
+
+#search-results-container {
+    float: right;
+    width: 45%;
+}
+
+#search-results-container>h1 {
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+}
+
+#search-results-container>a {
+    ont-family: 'Slabo 27px', serif;
+}
+
+#search-results-container>p {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#image-search-results-container {
+    float: left;
+    width: 45%;
+}
